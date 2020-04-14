@@ -1,0 +1,27 @@
+:root {
+    --color1: #27272e;
+    --color2: #22222b;
+    --color3: #54545e;
+    --color4: #79799a;
+    --color5: #ffffff;
+    --color6: #707070;
+    --color7: #e3e3f3;
+    --color8: #b4b4c5;
+    --color9: #1f1f26;
+    --color10: #434350;
+    --color11: #9191b2;
+    --color12: #101014;
+    --color13: #393943;
+    --color14: #2e2e34;
+    --color15: #4f4f9f;
+    --color16: #bb4848;
+    --color17: #82828f;
+    --color18: #393984;
+}
+
+body {
+    background-color: var(--color12);
+    font-family: 'Poppins', sans-serif;
+    color: var(--color8);
+    font-size: 15px;
+}
