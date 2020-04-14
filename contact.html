@@ -8,14 +8,78 @@
     <title>Contact</title>
 </head>
 <body>
-    <menu>
-        <i class="fas fa-bars"></i>
-        <a href="/index.html" >Home</a>
-        <a href="/portfolio.html">Portfolio</a>
-        <a href="/cv.html">CV</a>
-        <a href="/contact.html" class='active'>Contact</a>
-    </menu>
-
-
+    <div class="wrapper">
+        <menu>
+            <i class="fas fa-bars"></i>
+            <a href="/index.html">Home</a>
+            <a href="/portfolio.html">Portfolio</a>
+            <a href="/cv.html">CV</a>
+            <a href="/contact.html" class='active'>Contact</a>
+        </menu>
+        <main>
+            <div class="things">
+                <div class="contact block">
+                    <form>
+                        <div class="left">
+                            <input type="text" name="name" placeholder="Name" />
+                            <input type="email" name="email" placeholder="Email">
+                            <button type="submit">
+                                <span>Send it!</span> 
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <div class="right">
+                            <textarea name="message" placeholder="Say hi 👋 or business inquires"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="weather block">
+                    <header>
+                        <h4>Weather</h4>
+                    </header>
+                    <main>
+                        <i class="fas fa-sun weatherIcon"></i>
+                        <div class="temp">
+                            <div class="degrees">
+                                <span class='degrees-n'>
+                                    23
+                                </span>
+                                <span class="degrees-s">
+                                    °C
+                                </span>
+                            </div>
+                            <span class="text">sunny</span>
+                        </div>
+                        <div class="location">
+                            <h5>
+                                London, UK
+                            </h5>
+                            <small>Based on your current location</small>
+                        </div>
+                    </main>
+                </div>
+                <div class="clock block">
+                    <header>
+                        <h4>Clock</h4>
+                    </header>
+                    <main>
+                        <div class="h">10</div>
+                        <div class="AP">P</div>
+                        <div class="m">: <span>25</span></div>
+                        <div class="M">M</div>
+                    </main>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/ionut-balasa-44a90119b/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/IonutBalasa"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.facebook.com/Balasa.Ionut.Gabriel/"><i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/7968642a6b.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
