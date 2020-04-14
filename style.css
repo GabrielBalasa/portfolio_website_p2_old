@@ -25,3 +25,30 @@ body {
     color: var(--color8);
     font-size: 15px;
 }
+
+menu {
+    background-color: var(--color1);
+    border-radius: 10px;
+    padding-left: 0;
+    margin: 50px 0;
+}
+
+menu > i {
+    display: inline-block;
+    background-color: var(--color2);
+    border-radius: 8px 0 0 8px;
+    padding: 17px;
+    color: var(--color3);
+}
+
+menu > a {
+    display: inline-block;
+    padding: 12px 6px;
+    text-decoration: none;
+    color: var(--color4);
+    font-weight: 600;
+}
+
+menu > a.active {
+    color: var(--color7);
+}
