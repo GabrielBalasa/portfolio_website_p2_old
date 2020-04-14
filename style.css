@@ -26,6 +26,10 @@ body {
     font-size: 15px;
 }
 
+.wrapper {
+    padding: 0 195px;
+}
+
 menu {
     background-color: var(--color1);
     border-radius: 10px;
@@ -51,4 +55,276 @@ menu > a {
 
 menu > a.active {
     color: var(--color7);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    margin-bottom: 95px;
+}
+
+.photo {
+    background-image: url('../images/placeholder.png');
+    background-size: cover;
+    width: 128px;
+    height: 128px;
+    border-radius: 40px;
+    margin-right: 18px;
+}
+
+.brief {
+    flex: 1;
+    max-width: 520px;
+}
+
+.brief h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color7);
+}
+
+.things {
+    display: flex;
+}
+
+.things > div {
+    margin-right: 15px;
+}
+
+.block {
+    background-color: var(--color2);
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+.block main {
+    padding: 15px;
+}
+
+.block header {
+    display: flex;
+    padding: 15px 15px 0 15px;
+}
+
+.block h4 {
+    background-color: var(--color10);
+    padding: 0 10px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 8px;
+    margin: 0;
+    flex: 1;
+}
+
+.todo {
+    flex: 6;
+}
+
+.todo h4 {
+    max-width: 200px;
+}
+
+.todo button {
+    margin-left: auto;
+    color: var(--color16);
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    padding: 0 10px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#todoClear:disabled {
+    display: none;
+}
+
+.todo button:hover {
+    background-color: var(--color16);
+    color: white;
+}
+
+#todoForm textarea {
+    background-color: var(--color13);
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    border: 0;
+    height: 96px;
+    resize: none;
+    color: inherit;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+    outline: none;
+}
+
+#todoForm footer {
+    display: flex;
+    height: 34px;
+    align-items: center;
+    padding-left: 15px;
+    background-color: var(--color14);
+    border-radius: 0 0 8px 8px;
+    margin-top: -6px; 
+}
+
+#todoForm button {
+    margin-left: auto;
+    background-color: transparent;
+    border-radius: 0 0 8px 0;
+    padding: 0 20px;
+    color: white;
+}
+
+#todoForm button:hover {
+    background-color: var(--color15);
+}
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    background-color: var(--color13);
+    width: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.todoItem > input {
+    margin-left: auto;
+}
+
+.wordCount {
+    font-size: 13px;
+    color: var(--color17);
+    font-style: italic;
+}
+
+.weather {
+    flex: 2;
+}
+
+.weather main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.weatherIcon {
+    display: flex;
+}
+
+.weatherIcon > img {
+    width: 67px;
+    height: 67px;
+    margin: 0 auto;
+}
+
+.temp {
+    font-weight: 600;
+}
+
+.degrees {
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.degrees-n {
+    color: var(--color7);
+}
+
+.degrees-s {
+    color: var(--color11);
+}
+
+.temp .text {
+    font-size: 20px;
+    color: var(--color11);
+    line-height: 24px;
+}
+
+.location {
+    margin-top: 15px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.location h5 {
+    margin: 0;
+    font-size: 23px;
+    line-height: 23px;
+}
+
+.location small {
+    font-size: 13px;
+    line-height: 13px;
+    color: var(--color4);
+    font-style: italic;
+}
+
+.clock {
+    min-width: 180px;
+    flex: 1;
+    margin-right: 0;
+}
+
+.clock main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.clock .h {
+    font-size: 100px;
+    line-height: 100px;
+    color: var(--color7);
+}
+
+.clock .m {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    color: var(--color4);
+    margin-top: -13px;
+}
+
+.clock .AP,
+.clock .M {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
+    color: var(--color12)
+}
+
+.clock .AP {
+    transform: translate(12px, 5px);
+}
+
+.clock .M {
+    transform: translate(12px, 5px);
+    margin-top: -41px;
+}
+
+.wrapper > footer { 
+    margin: 25px 0;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social a {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--color13);
+    transition: color .2s ease-out;
+}
+
+.social a:hover {
+    color: var(--color4);
 }

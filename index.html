@@ -8,14 +8,96 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <menu>
-        <i class="fas fa-bars"></i>
-        <a href="/index.html" class='active'>Home</a>
-        <a href="/portfolio.html">Portfolio</a>
-        <a href="/cv.html">CV</a>
-        <a href="/contact.html">Contact</a>
-    </menu>
-
-
+    <div class="wrapper">
+        <menu>
+            <i class="fas fa-bars"></i>
+            <a href="/index.html" class='active'>Home</a>
+            <a href="/portfolio.html">Portfolio</a>
+            <a href="/cv.html">CV</a>
+            <a href="/contact.html">Contact</a>
+        </menu>
+        <main>
+            <div class="about">
+                <div class="photo"></div>
+                <div class="brief">
+                    <h3>Ionut Balasa</h3>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum quisque non tellus orci ac. Auctor elit sed vulputate mi sit. Enim ut tellus elementum sagittis vitae et leo duis. Turpis egestas pretium.
+                    </span>
+                </div>
+            </div>
+            <div class="things">
+                <div class="todo block">
+                    <header>
+                        <h4>ToDo List</h4>
+                        <button id="todoClear" type="button" disabled>
+                            <i class="far fa-trash-alt"></i>
+                            Clear list
+                        </button>
+                    </header>
+                    <main>
+                        <form id='todoForm'>
+                            <textarea name="todoNewItem"></textarea>
+                            <footer>
+                                <div class="wordCount">
+                                    <span>0</span> character<span class="p">s</span>
+                                </div>
+                                <button id="todoAdd" type="button">
+                                    <i class="fas fa-plus"></i>
+                                    Add item
+                                </button>
+                            </footer>
+                        </form>
+                        <div class="todoList"></div>
+                    </main>
+                </div>
+                <div class="weather block">
+                    <header>
+                        <h4>Weather</h4>
+                    </header>
+                    <main>
+                        <div class="weatherIcon"></div>
+                        <div class="temp">
+                            <div class="degrees">
+                                <span class='degrees-n'>
+                                    23
+                                </span>
+                                <span class="degrees-s">
+                                    °C
+                                </span>
+                            </div>
+                            <span class="text">sunny</span>
+                        </div>
+                        <div class="location">
+                            <h5>
+                                London, UK
+                            </h5>
+                            <small>Based on your current location</small>
+                        </div>
+                    </main>
+                </div>
+                <div class="clock block">
+                    <header>
+                        <h4>Clock</h4>
+                    </header>
+                    <main>
+                        <div class="h">10</div>
+                        <div class="AP">P</div>
+                        <div class="m">: <span>25</span></div>
+                        <div class="M">M</div>
+                    </main>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/ionut-balasa-44a90119b/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/IonutBalasa"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.facebook.com/Balasa.Ionut.Gabriel/"><i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/7968642a6b.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
