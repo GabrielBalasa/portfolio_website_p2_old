@@ -355,3 +355,136 @@ menu > a.active {
     max-width: 75%;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
 }
+
+.contact {
+    flex: 6;
+    align-self: flex-start;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 208px;
+}
+
+.contact form {
+    display: flex;
+    height: 100%;
+}
+
+.contact .left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 245px;
+}
+
+.contact input,
+.contact button,
+.contact textarea {
+    padding: 0 12px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: 0;
+    color: var(--color7);
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color11);
+}
+
+.contact input,
+.contact textarea {
+    background-color: var(--color10);
+}
+
+.contact input[name="name"] {
+    margin-bottom: 10px;
+}
+
+.contact textarea {
+    resize: none;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact .right {
+    margin-left: 15px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: auto;
+    background-color: var(--color15);
+    font-weight: 600;
+    transition: background-color .2s ease-out;
+}
+
+.contact button:hover {
+    background-color: var(--color18);
+}
+
+.cv {
+    display: flex;
+
+}
+
+.cvAbout {
+    display: flex;
+    align-items: center;
+    margin-bottom: 95px;
+    flex-direction: column;
+    max-width: 270px;
+    box-sizing: border-box;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.cvAbout h3 {
+    color: var(--color7);
+}
+
+.cvAbout img {
+    background-image: url('https://via.placeholder.com/150');
+    background-size: cover;
+    width: 128px;
+    height: 128px;
+    border-radius: 40px;
+}
+
+.cvAbout span {
+    font-size: 13px;
+}
+
+.cvAbout .social{
+    margin: 25px 0;
+}
+
+.cvData {
+    flex: 1;
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+}
+
+.cvData > div {
+    width: 50%;
+    height: 250px;
+    font-size: 12px;
+}
+
+.cvData > div > ul {
+    list-style: none;
+    padding: 0 20px 0 10px;
+}
