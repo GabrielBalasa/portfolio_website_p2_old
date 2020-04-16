@@ -1,3 +1,23 @@
+/* Theme toggle */
+if(localStorage.getItem('theme')) {
+    document.querySelector('body').classList.add('light-theme');
+}
+
+document.querySelector('.theme-toggle').addEventListener('click', _ => {
+    const bodyEl = document.querySelector('body');
+    if( bodyEl.classList.contains('light-theme') ) {
+        bodyEl.classList.remove('light-theme');
+        document.querySelector('.fa-moon').classList.add('active');
+        document.querySelector('.fa-sun').classList.remove('active');
+        localStorage.removeItem('theme');
+    } else {
+        bodyEl.classList.add('light-theme');
+        document.querySelector('.fa-moon').classList.remove('active');
+        document.querySelector('.fa-sun').classList.add('active');
+        localStorage.setItem('theme', 'light-theme');
+    }
+});
+
 /* ToDo List */
 
 let form = document.getElementById('todoForm'),
