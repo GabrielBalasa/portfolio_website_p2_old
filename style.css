@@ -488,3 +488,120 @@ menu > a.active {
     list-style: none;
     padding: 0 20px 0 10px;
 }
+
+@media only screen and (max-width: 1500px) {
+    .wrapper {
+        padding: 0 125px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .wrapper {
+        padding: 0 100px;
+    }
+
+    .things {
+        flex-wrap: wrap;
+    }
+
+    .things > div {
+        margin-bottom: 15px;
+    }
+
+    .weather {
+        max-width: 360px;
+    }
+
+    .clock {
+        max-width: 180px;
+    }
+
+    .contact {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {    
+    .todo {
+        align-self: auto;
+        min-width: 100%;
+    }
+
+    .cvData {
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .cvData > div {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        padding: 0 55px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    .gallery .item .title {
+        font-size: 16px;
+    }
+    
+    .cv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cvData {
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        height: auto;
+    }
+
+    .contact form {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .contact .left {
+        align-self: center;
+    }
+
+    .contact .left button {
+        margin: 10px 0;
+    }
+    
+    .contact .right {
+        margin: 10px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+
+    .wrapper {
+        padding: 0 8px;
+    }
+
+    .gallery {
+        grid-template-columns: 100%;
+    }
+
+    menu > .fa-bars {
+        display: none;
+    }
+}
