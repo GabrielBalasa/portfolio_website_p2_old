@@ -17,6 +17,48 @@
     --color16: #bb4848;
     --color17: #82828f;
     --color18: #393984;
+    --color19: #f2f2fd;
+}
+
+/**
+* light theme colors
+*/
+body.light-theme {
+    --color1: #D4D4DF;
+    --color2: #BDBDCE;
+    --color3: #8C8CA8;
+    --color4: #A3A3B8;
+    --color5: #363653;
+    --color7: #585882;
+    --color8: #555571;
+    --color9: #e4e4f3;
+    --color10: #D9D9EC;
+    --color12: #F8F8FF;
+    --color13: #D8D8EE;
+    --color14: #E6E6F3;
+    --color17: #9898A1;
+}
+
+body.light-theme .gallery .item .title {
+    background-color: rgba(150, 150, 168, .8);
+    color: var(--color5);
+    text-shadow: 1px 2px 3px rgba(255, 255, 255, .3);
+}
+
+body.light-theme .contact button {
+    color: var(--color19);
+}
+
+body.light-theme .location small {
+    color: var(--color7);
+}
+
+body.light-theme .clock .m {
+    color: var(--color3);
+}
+
+body.light-theme .social a {
+    color: var(--color4);
 }
 
 body {
@@ -24,6 +66,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: var(--color8);
     font-size: 15px;
+    margin: 0;
 }
 
 .wrapper {
@@ -31,6 +74,8 @@ body {
 }
 
 menu {
+    display: flex;
+    align-items: center;
     background-color: var(--color1);
     border-radius: 10px;
     padding-left: 0;
@@ -53,7 +98,29 @@ menu > a {
     font-weight: 600;
 }
 
+menu > a:first-of-type {
+    margin-left: 6px;
+}
+
 menu > a.active {
+    color: var(--color7);
+}
+
+.theme-toggle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 10px 0 auto;
+    width: 56px;
+    height: 30px;
+    font-size: 13px;
+    color: var(--color4);
+    border-radius: 6px;
+    background-color: var(--color9);
+    cursor: pointer;
+}
+
+.theme-toggle .active {
     color: var(--color7);
 }
 
@@ -64,7 +131,7 @@ menu > a.active {
 }
 
 .photo {
-    background-image: url('../images/placeholder.png');
+    background-image: url('https://via.placeholder.com/150');
     background-size: cover;
     width: 128px;
     height: 128px;
@@ -178,11 +245,12 @@ menu > a.active {
     background-color: transparent;
     border-radius: 0 0 8px 0;
     padding: 0 20px;
-    color: white;
+    color: var(--color5);
 }
 
 #todoForm button:hover {
     background-color: var(--color15);
+    color: var(--color19);
 }
 
 .todoItem {
@@ -354,6 +422,7 @@ menu > a.active {
     border-radius: 8px;
     max-width: 75%;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+    backdrop-filter: blur(5px);
 }
 
 .contact {
@@ -480,8 +549,9 @@ menu > a.active {
 
 .cvData > div {
     width: 50%;
-    height: 250px;
     font-size: 12px;
+    height: auto;
+    margin-bottom: 25px;
 }
 
 .cvData > div > ul {
