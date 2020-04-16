@@ -131,7 +131,7 @@ menu > a.active {
 }
 
 .photo {
-    background-image: url('https://via.placeholder.com/150');
+    background-image: url('profile.jpg');
     background-size: cover;
     width: 128px;
     height: 128px;
@@ -418,7 +418,7 @@ menu > a.active {
     padding: 10px 13px;
     color: var(--color7);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 8px;
     max-width: 75%;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
@@ -525,15 +525,19 @@ menu > a.active {
 }
 
 .cvAbout img {
-    background-image: url('https://via.placeholder.com/150');
     background-size: cover;
     width: 128px;
     height: 128px;
     border-radius: 40px;
 }
 
+.cvAbout i {
+    margin: 0 5px;
+}
+
 .cvAbout span {
     font-size: 13px;
+    margin-top: 10px;
 }
 
 .cvAbout .social{
