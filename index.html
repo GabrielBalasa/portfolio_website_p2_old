@@ -9,19 +9,19 @@
 </head>
 <body>
     <div class="wrapper">
-        <menu>
+        <menu> <!-- Menu, displayed on every page -->
             <i class="fas fa-bars"></i>
             <a href="/index.html" class='active'>Home</a>
             <a href="/portfolio.html">Portfolio</a>
             <a href="/cv.html">CV</a>
             <a href="/contact.html">Contact</a>
-            <div class="theme-toggle">
+            <div class="theme-toggle"> <!-- Dark/Light theme toggle -->
                 <i class="far fa-sun"></i>
                 <i class="far fa-moon active"></i>
             </div>
         </menu>
         <main>
-            <div class="about">
+            <div class="about"> <!-- Description section on index page -->
                 <div class="photo"></div>
                 <div class="brief">
                     <h3>Ionut-Gabriel Balasa</h3>
@@ -30,38 +30,38 @@
                     </span>
                 </div>
             </div>
-            <div class="things">
-                <div class="todo block">
+            <div class="things"> <!-- Block for Todo list, Weather app and Clock app -->
+                <div class="todo block"> <!-- ToDo list -->
                     <header>
                         <h4>ToDo List</h4>
-                        <button id="todoClear" type="button" disabled>
+                        <button id="todoClear" type="button" disabled> <!-- Hidden Clear button for Todo list -->
                             <i class="far fa-trash-alt"></i>
                             Clear list
                         </button>
                     </header>
                     <main>
                         <form id='todoForm'>
-                            <textarea name="todoNewItem"></textarea>
+                            <textarea name="todoNewItem"></textarea> <!-- Text Area for the Todo List -->
                             <footer>
-                                <div class="wordCount">
+                                <div class="wordCount"> <!-- Word count for the todo list -->
                                     <span>0</span> character<span class="p">s</span>
                                 </div>
-                                <button id="todoAdd" type="button">
+                                <button id="todoAdd" type="button"> <!-- Add items button for the todo list -->
                                     <i class="fas fa-plus"></i>
                                     Add item
                                 </button>
                             </footer>
                         </form>
-                        <div class="todoList"></div>
+                        <div class="todoList"></div> <!-- List of items in the todo list -->
                     </main>
                 </div>
-                <div class="weather block">
+                <div class="weather block"> <!-- Block for the weather app -->
                     <header>
                         <h4>Weather</h4>
                     </header>
                     <main>
-                        <div class="weatherIcon"></div>
-                        <div class="temp">
+                        <div class="weatherIcon"></div> <!-- Weather App Icon -->
+                        <div class="temp"> <!-- Temperature data for weather app -->
                             <div class="degrees">
                                 <span class='degrees-n'>
                                     23
@@ -70,9 +70,9 @@
                                     °C
                                 </span>
                             </div>
-                            <span class="text">sunny</span>
+                            <span class="text">sunny</span> <!-- Weather details for weather app -->
                         </div>
-                        <div class="location">
+                        <div class="location"> <!-- Location based on browser location if granted -->
                             <h5>
                                 London, UK
                             </h5>
@@ -80,7 +80,7 @@
                         </div>
                     </main>
                 </div>
-                <div class="clock block">
+                <div class="clock block"> <!-- Clock app based on current system time -->
                     <header>
                         <h4>Clock</h4>
                     </header>
@@ -94,14 +94,14 @@
             </div>
         </main>
         <footer>
-            <div class="social">
+            <div class="social"> <!-- Social profiles icons  -->
                 <a href="https://www.linkedin.com/in/ionut-balasa-44a90119b/"><i class="fab fa-linkedin fa-2x"></i></a>
                 <a href="https://github.com/IonutBalasa"><i class="fab fa-github fa-2x"></i></a>
                 <a href="https://www.facebook.com/Balasa.Ionut.Gabriel/"><i class="fab fa-facebook fa-2x"></i></a>
             </div>
         </footer>
     </div>
-    <script src="https://kit.fontawesome.com/7968642a6b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7968642a6b.js" crossorigin="anonymous"></script> <!-- Script for Font Awesome icons -->
     <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>

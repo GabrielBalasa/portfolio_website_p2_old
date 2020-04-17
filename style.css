@@ -1,3 +1,5 @@
+/* Dark theme colors */
+
 :root {
     --color1: #27272e;
     --color2: #22222b;
@@ -20,9 +22,8 @@
     --color19: #f2f2fd;
 }
 
-/**
-* light theme colors
-*/
+/* Light theme colors */
+
 body.light-theme {
     --color1: #D4D4DF;
     --color2: #BDBDCE;
@@ -61,6 +62,8 @@ body.light-theme .social a {
     color: var(--color4);
 }
 
+/* Dark(default) theme */
+
 body {
     background-color: var(--color12);
     font-family: 'Poppins', sans-serif;
@@ -72,6 +75,8 @@ body {
 .wrapper {
     padding: 0 195px;
 }
+
+/* Menu displayed on every page */
 
 menu {
     display: flex;
@@ -106,6 +111,8 @@ menu > a.active {
     color: var(--color7);
 }
 
+/* Toggle button for dark/light mode */
+
 .theme-toggle {
     display: flex;
     justify-content: space-evenly;
@@ -124,11 +131,15 @@ menu > a.active {
     color: var(--color7);
 }
 
+/* About data from index page */
+
 .about {
     display: flex;
     align-items: center;
     margin-bottom: 95px;
 }
+
+/* Profile image from index page */
 
 .photo {
     background-image: url('profile.jpg');
@@ -138,6 +149,8 @@ menu > a.active {
     border-radius: 40px;
     margin-right: 18px;
 }
+
+/* Description from index page */
 
 .brief {
     flex: 1;
@@ -150,6 +163,8 @@ menu > a.active {
     font-weight: 600;
     color: var(--color7);
 }
+
+/* Todo list + weather app + clock app */
 
 .things {
     display: flex;
@@ -184,6 +199,8 @@ menu > a.active {
     flex: 1;
 }
 
+/* Todo list */
+
 .todo {
     flex: 6;
 }
@@ -191,6 +208,8 @@ menu > a.active {
 .todo h4 {
     max-width: 200px;
 }
+
+/* Todo add and clear button */
 
 .todo button {
     margin-left: auto;
@@ -216,6 +235,8 @@ menu > a.active {
     color: white;
 }
 
+/* Text area of the todo list */
+
 #todoForm textarea {
     background-color: var(--color13);
     width: 100%;
@@ -240,6 +261,8 @@ menu > a.active {
     margin-top: -6px; 
 }
 
+/* Add item button */
+
 #todoForm button {
     margin-left: auto;
     background-color: transparent;
@@ -252,6 +275,8 @@ menu > a.active {
     background-color: var(--color15);
     color: var(--color19);
 }
+
+/* Todo list of items added */
 
 .todoItem {
     display: flex;
@@ -268,11 +293,15 @@ menu > a.active {
     margin-left: auto;
 }
 
+/* Word cout for the form */
+
 .wordCount {
     font-size: 13px;
     color: var(--color17);
     font-style: italic;
 }
+
+/* Weather app */
 
 .weather {
     flex: 2;
@@ -283,6 +312,8 @@ menu > a.active {
     grid-template-columns: 40% 60%;
 }
 
+/* Weather app icon */
+
 .weatherIcon {
     display: flex;
 }
@@ -292,6 +323,8 @@ menu > a.active {
     height: 67px;
     margin: 0 auto;
 }
+
+/* Temperature details for weather app */
 
 .temp {
     font-weight: 600;
@@ -316,6 +349,8 @@ menu > a.active {
     line-height: 24px;
 }
 
+/* Location service for the weather app */
+
 .location {
     margin-top: 15px;
     grid-column-start: 1;
@@ -334,6 +369,8 @@ menu > a.active {
     color: var(--color4);
     font-style: italic;
 }
+
+/* Clock app */
 
 .clock {
     min-width: 180px;
@@ -381,6 +418,8 @@ menu > a.active {
     margin: 25px 0;
 }
 
+/* Social profile's icons */
+
 .social {
     display: flex;
     justify-content: center;
@@ -396,6 +435,8 @@ menu > a.active {
 .social a:hover {
     color: var(--color4);
 }
+
+/* Portfolio gallery*/
 
 .gallery {
     display: grid;
@@ -413,6 +454,8 @@ menu > a.active {
     background-position: center;
 }
 
+/* Title of each item in the gallery */
+
 .gallery .item .title {
     background-color: rgba(67, 67, 80, .8);
     padding: 10px 13px;
@@ -424,6 +467,8 @@ menu > a.active {
     text-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
     backdrop-filter: blur(5px);
 }
+
+/* Contact form */
 
 .contact {
     flex: 6;
@@ -488,6 +533,8 @@ menu > a.active {
     box-sizing: border-box;
 }
 
+/* Contact form send button */
+
 .contact button {
     display: flex;
     align-items: center;
@@ -504,10 +551,14 @@ menu > a.active {
     background-color: var(--color18);
 }
 
+/* CV */
+
 .cv {
     display: flex;
 
 }
+
+/* About part of the CV page */
 
 .cvAbout {
     display: flex;
@@ -524,7 +575,10 @@ menu > a.active {
     color: var(--color7);
 }
 
-.cvAbout img {
+/* Profile image form CV page */
+
+.cvPhoto {
+    background-image: url('profile.jpg');
     background-size: cover;
     width: 128px;
     height: 128px;
@@ -544,6 +598,8 @@ menu > a.active {
     margin: 25px 0;
 }
 
+/* CV data split on the page  */
+
 .cvData {
     flex: 1;
     display: flex;
@@ -562,6 +618,8 @@ menu > a.active {
     list-style: none;
     padding: 0 20px 0 10px;
 }
+
+/* Media queries */
 
 @media only screen and (max-width: 1500px) {
     .wrapper {

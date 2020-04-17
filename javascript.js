@@ -34,6 +34,8 @@ if (document.querySelector('.todo')) {
         }
     }
 
+    /* HTML data for the todo list items */
+
     function todoItemHtml(todoItem, id) {
         let todoItemDiv = document.createElement('div'),
             checkBox = document.createElement('input');
@@ -48,6 +50,8 @@ if (document.querySelector('.todo')) {
         return todoItemDiv;
     }
 
+    /* Word count function for the todo list */
+
     function wordCount() {
         let counter = document.querySelector('.wordCount > span'),
             p = document.querySelector('.wordCount > .p');
@@ -59,6 +63,8 @@ if (document.querySelector('.todo')) {
 
         counter.innerHTML = input.value.length;
     }
+
+    /* Todo list items check mark toggle */
 
     function todoListToggle(e) {
         let parent = e.currentTarget.parentNode,
@@ -134,6 +140,8 @@ if (document.querySelector('.weather')) {
                 }
             )
     }
+
+    /* Current location if access granted */
 
     navigator.geolocation.getCurrentPosition(function (e){
         let latitude = e.coords.latitude;
