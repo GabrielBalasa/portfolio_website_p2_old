@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <menu> <!-- Menu, displayed on every page -->
+        <div class="menu"> <!-- Menu, displayed on every page -->
             <i class="fas fa-bars"></i>
             <a href="/index.html" class='active'>Home</a>
             <a href="/portfolio.html">Portfolio</a>
@@ -19,7 +19,7 @@
                 <i class="far fa-sun"></i>
                 <i class="far fa-moon active"></i>
             </div>
-        </menu>
+        </div>
         <main>
             <div class="about"> <!-- Description section on index page -->
                 <div class="photo"></div>
@@ -39,7 +39,7 @@
                             Clear list
                         </button>
                     </header>
-                    <main>
+                    <div class = "main">
                         <form id='todoForm'>
                             <textarea name="todoNewItem"></textarea> <!-- Text Area for the Todo List -->
                             <footer>
@@ -53,13 +53,13 @@
                             </footer>
                         </form>
                         <div class="todoList"></div> <!-- List of items in the todo list -->
-                    </main>
+                    </div>
                 </div>
                 <div class="weather block"> <!-- Block for the weather app -->
                     <header>
                         <h4>Weather</h4>
                     </header>
-                    <main>
+                    <div class = "main">
                         <div class="weatherIcon"></div> <!-- Weather App Icon -->
                         <div class="temp"> <!-- Temperature data for weather app -->
                             <div class="degrees">
@@ -78,18 +78,18 @@
                             </h5>
                             <small>Based on your current location</small>
                         </div>
-                    </main>
+                    </div>
                 </div>
                 <div class="clock block"> <!-- Clock app based on current system time -->
                     <header>
                         <h4>Clock</h4>
                     </header>
-                    <main>
+                    <div class = "main">
                         <div class="h">10</div>
                         <div class="AP">P</div>
                         <div class="m">: <span>25</span></div>
                         <div class="M">M</div>
-                    </main>
+                    </div>
                 </div>
             </div>
         </main>
@@ -102,6 +102,6 @@
         </footer>
     </div>
     <script src="https://kit.fontawesome.com/7968642a6b.js" crossorigin="anonymous"></script> <!-- Script for Font Awesome icons -->
-    <script type="text/javascript" src="javascript.js"></script>
+    <script src="javascript.js"></script>
 </body>
 </html>
