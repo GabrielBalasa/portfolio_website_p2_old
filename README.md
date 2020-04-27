@@ -5,4 +5,4 @@ This is my portfolio website with all the apps and features I have managed to le
 
 ### Code Validations
 
-![Index HTML Validation] (/Validations/index_validation.png)
+![Index HTML Validation](/Validations/index_validation.png)
