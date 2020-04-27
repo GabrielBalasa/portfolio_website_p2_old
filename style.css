@@ -468,6 +468,13 @@ menu > a.active {
     backdrop-filter: blur(5px);
 }
 
+.title a {
+    padding: 12px 6px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
 /* Contact form */
 
 .contact {
