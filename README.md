@@ -23,7 +23,7 @@ All code validations have been done and any issues is now fixed.
 ![Style CSS Validation](/Validations/css_validation.png)
 
 
-### Github Pages for the apps used
+### Github Pages
 
 Every app used had a main github page and was updated from its original state.
 
