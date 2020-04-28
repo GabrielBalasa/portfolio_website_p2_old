@@ -32,8 +32,8 @@ Every app used had a main github page and was updated from its original state.
 [*Background Color Change*](https://github.com/IonutBalasa/background_color_change)  
 
 #### Extra:
-[*Random Quote Generator*](https://github.com/IonutBalasa/random_quote_generator)
+[*Random Quote Generator*](https://github.com/IonutBalasa/random_quote_generator)  
 Altough I couldn't find a good place for it in my design, I like the idea behind the random quote generator.
 
-[*Simplified Portfolio*](https://github.com/IonutBalasa/simple_portfolio)
+[*Simplified Portfolio*](https://github.com/IonutBalasa/simple_portfolio)  
 This is a very simple version of a portfolio, *talk about a quick impression*.
