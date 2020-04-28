@@ -31,7 +31,7 @@ Every app used had a main github page and was updated from its original state.
 [*Weather App*](https://github.com/IonutBalasa/weather_app)  
 [*Background Color Change*](https://github.com/IonutBalasa/background_color_change)  
 
-##### Extra:
+#### Extra:
 [*Random Quote Generator*](https://github.com/IonutBalasa/random_quote_generator)
 Altough I couldn't find a good place for it in my design, I like the idea behind the random quote generator.
 
