@@ -739,7 +739,7 @@ body {
         grid-template-columns: 100%;
     }
 
-    menu > .fa-bars {
+    .menu > .fa-bars {
         display: none;
     }
 }
