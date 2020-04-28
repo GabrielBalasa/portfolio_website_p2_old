@@ -27,9 +27,9 @@ All code validations have been done and any issues is now fixed.
 
 Every app used had a main github page and was updated from its original state.
 
-[*Todo List*](https://github.com/IonutBalasa/todo_list)
-[*Weather App*](https://github.com/IonutBalasa/weather_app)
-[*Background Color Change*](https://github.com/IonutBalasa/background_color_change)
+[*Todo List*](https://github.com/IonutBalasa/todo_list)  
+[*Weather App*](https://github.com/IonutBalasa/weather_app)  
+[*Background Color Change*](https://github.com/IonutBalasa/background_color_change)  
 
 ##### Extra:
 [*Random Quote Generator*](https://github.com/IonutBalasa/random_quote_generator)
