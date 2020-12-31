@@ -5,7 +5,7 @@ This is my portfolio website with all the apps and features I have managed to le
 
 ### Code Validations
 
-All code validations have been done and any issues is now fixed.
+All code validations have been done and any issues are now fixed.
 
 *index.html*
 ![Index HTML Validation](/Validations/index_validation.png)
