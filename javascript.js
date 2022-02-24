@@ -120,7 +120,7 @@ let icon = document.querySelector(".weatherIcon"),
     loc = document.querySelector(".location h5");
 
 const kelvin = 273.15,
-    key = "82f71f72e71b127ba800d58852ce7255"; // api key
+    key = ""; // api key
 
 // Weather data from API
 
